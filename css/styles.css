@@ -1,0 +1,68 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	font-size: 16px;
+	background-color: #548e;
+	color: white;
+}
+
+/* HEADER */
+
+.header-nav {
+	background-color: lightgrey;
+	border-radius: 0;
+	border: 0;
+	color: white;
+}
+
+.navbar-brand p {
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.nav-list a {
+	color: white;
+	text-align: center;
+}
+
+.nav-list a:hover {
+	background-color: #3d3d3d;
+}
+
+/* Section */
+
+#home {
+	font-weight: lighter;
+	font-size: 3rem;
+	margin-bottom: 30px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row  div  article {
+	background-color: white;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: #343332;
+}
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
